@@ -11,7 +11,7 @@ searchInput.addEventListener("input",e =>{
 
 const getSimilar = async () => {
 
-    const response = await fetch('http://ws.audioscrobbler.com/2.0/?method=album.search&album='+bio+'&api_key=acb24ec5f7bd68800c7bee59bdfac898&format=json&limit=14');
+    const response = await fetch('https://ws.audioscrobbler.com/2.0/?method=album.search&album='+bio+'&api_key=acb24ec5f7bd68800c7bee59bdfac898&format=json&limit=14');
 
     //const response2 = await fetch('http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=YOUR_API_KEY&artist=Cher&album=Believe');
 
@@ -44,7 +44,7 @@ const getInfo= async (info)=>{
 
     for (let i=0; i<info.results.albummatches.album.length; i++){
 
-        aux[i]= await fetch('http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=acb24ec5f7bd68800c7bee59bdfac898&artist='+info.results.albummatches.album[i].artist+'&album='+info.results.albummatches.album[i].name+'&format=json');
+        aux[i]= await fetch('https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=acb24ec5f7bd68800c7bee59bdfac898&artist='+info.results.albummatches.album[i].artist+'&album='+info.results.albummatches.album[i].name+'&format=json');
 
     }
 
