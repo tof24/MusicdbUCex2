@@ -1,0 +1,137 @@
+body{
+    background:#1a1e21;
+    font-family: "Gill Sans MT";
+    color: #cbcbcb !important;
+}
+
+a{
+    text-decoration: none;
+    color: #cbcbcb;
+}
+.search{
+    border-radius:3rem!important;
+    height: 50px;
+}
+
+.inputsearch{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #D9d9d9;
+    margin-left: 20px;
+}
+
+.inputsearch2{
+    color: #D9d9d9;
+    text-decoration: none;
+
+}
+
+
+
+
+.redondo{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3rem;
+}
+
+.backi{
+    background: #23292f;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    position: relative;
+    padding-top:6%;
+    border-radius: 8px;
+    padding-bottom: 5.5%;
+    transition: 1s ease;
+
+    }
+
+.generoo{
+    border: solid #1e2125;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: auto;
+    height: 35px;
+    vertical-align: 17px;
+    transition: background-color 0.5s ease;
+    background: #d1d3d2;
+
+
+}
+
+.generoo:hover {
+    background-color: #40755f;
+    color: #D9d9d9;
+
+}
+
+.iconi{
+    height: 25px;
+    width: 25px;
+    margin-top:7% ;
+    opacity: 50%    ;
+}
+
+.fundo{
+    position: absolute;
+    bottom:3%;
+    right: 2%;
+}
+
+
+
+.backi:hover{
+    transition: 1s ease;
+    background: #365748 !important;
+}
+
+.pop{
+
+    border-radius: 5%;
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+    display: flex;
+    text-align: center;
+    transition: 1s ease;
+    background: #373741;
+}
+
+.pop:hover{
+    background:#365748FF;
+    transition: 1s ease;
+}
+
+.ti{
+    background: transparent;
+}
+
+.popi{
+
+    border-radius: 5%;
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+    display: flex;
+    text-align: center;
+    transition: 1s ease;
+    background: #23292f;
+}
+
+.popi:hover{
+    background: #6e613d;
+    transition: 1s ease;
+}
+
+.tii{
+    background: transparent;
+}
+
+.bra{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
